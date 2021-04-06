@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kloning Instagram</string>
+    <string name="tombol">Tombol</string>
+    <string name="nama_akun_instagram">Nama akun Instagram</string>
+    <string name="user">user</string>
+    <string name="camera">camera</string>
+    <string name="titik3">titik3</string>
+    <string name="like">like</string>
+    <string name="comment">comment</string>
+    <string name="share">share</string>
+    <string name="titik2">titik2</string>
+    <string name="mark">mark</string>
+    <string name="_1_000_likes">1.000 likes</string>
+    <string name="nama_akun">nama akun</string>
+    <string name="caption_dan_hastag">caption dan hastag</string>
+    <string name="lihat_10_komentar">lihat 10 komentar</string>
+    <string name="user1">user1</string>
+    <string name="berkomentar">Berkomentar…</string>
+    <string name="lokasi">lokasi…</string>
+</resources>

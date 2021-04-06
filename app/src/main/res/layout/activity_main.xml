@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <ImageView
+        android:id="@+id/fotopostingan"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="#C3C3C3"
+        android:contentDescription="@string/camera"
+        android:translationY="60dp"
+        app:srcCompat="@drawable/camera" />
+
+    <ImageView
+        android:id="@+id/fotoprofil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:accessibilityLiveRegion="assertive"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/user"
+        android:translationX="10dp"
+        android:translationY="5dp"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/namaakuninstagram"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:shadowColor="#000000"
+        android:text="@string/nama_akun_instagram"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="15sp"
+        android:translationX="65dp"
+        android:translationY="15dp" />
+
+    <ImageView
+        android:id="@+id/dots3"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/titik3"
+        android:translationX="375dp"
+        android:translationY="15dp"
+        app:srcCompat="@drawable/titik3" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:contentDescription="@string/like"
+        android:translationX="10dp"
+        android:translationY="470dp"
+        app:srcCompat="@drawable/like" />
+
+    <ImageView
+        android:id="@+id/komen"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/comment"
+        android:rotation="10"
+        android:translationX="55dp"
+        android:translationY="470dp"
+        app:srcCompat="@drawable/comment" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/share"
+        android:translationX="100dp"
+        android:translationY="470dp"
+        app:srcCompat="@drawable/share" />
+
+    <ImageView
+        android:id="@+id/slideposting"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/titik2"
+        android:translationX="200dp"
+        android:translationY="470dp"
+        app:srcCompat="@drawable/titik2" />
+
+    <ImageView
+        android:id="@+id/markposting"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/mark"
+        android:translationX="355dp"
+        android:translationY="455dp"
+        app:srcCompat="@drawable/mark" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_000_likes"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="15sp"
+        android:translationX="10dp"
+        android:translationY="500dp" />
+
+    <TextView
+        android:id="@+id/namaakun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_akun"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="15sp"
+        android:translationX="10dp"
+        android:translationY="518dp" />
+
+    <TextView
+        android:id="@+id/captiondanhastag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caption_dan_hastag"
+        android:textColor="#2289CD"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15sp"
+        android:translationX="90dp"
+        android:translationY="518dp" />
+
+    <TextView
+        android:id="@+id/komentar"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="@string/lihat_10_komentar"
+        android:textSize="13sp"
+        android:translationX="10dp"
+        android:translationY="537dp" />
+
+    <ImageView
+        android:id="@+id/fotoprofilkomentar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/user1"
+        android:src="@drawable/user"
+        android:translationX="10dp"
+        android:translationY="557dp" />
+
+    <TextView
+        android:id="@+id/berkomentar"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="@string/berkomentar"
+        android:textSize="13sp"
+        android:translationX="65dp"
+        android:translationY="570dp" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:text="@string/lokasi"
+        android:textSize="13sp"
+        android:translationX="65dp"
+        android:translationY="30dp" />
+
+</RelativeLayout>
